@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h5>Java Program to illustrate multi-level inheritance</h5>
+        <div class="container">
+            <code>
+                class Shape {
+                    public void display() { <br>
+                       System.out.println("Inside display"); <br>
+                    }<br>
+                 }<br>
+                 class Rectangle extends Shape {<br>
+                    public void area() {<br>
+                       System.out.println("Inside area");<br>
+                    }<br>
+                 }<br>
+                 class Cube extends Rectangle {<br>
+                    public void volume() {<br>
+                       System.out.println("Inside volume");<br>
+                    }<br>
+                 }<br>
+                 public class Tester {<br>
+                    public static void main(String[] arguments) {<br>
+                       Cube cube = new Cube();<br>
+                       cube.display();<br>
+                       cube.area();<br>
+                       cube.volume();<br>
+                    }<br>
+                 }<br>
+            </code>
+
+        </div>
+    </div>
+        
+    
+ 
+    
+</body>
+</html>

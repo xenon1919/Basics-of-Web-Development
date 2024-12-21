@@ -1,0 +1,18 @@
+<html>
+    <title>JavaScript</title>
+    <body>
+        <p id ="demo"></p>
+    </body>
+    <script>
+        var car = {
+            model : "audi",
+            color : "bright red",
+            fuel_type : " ",
+            set fuel(fuel) {
+                this.fuel_type=fuel;
+            }
+        }
+        car.fuel="petrol";
+        document.getElementById("demo").innerHTML=car.fuel_type;
+    </script>
+</html>

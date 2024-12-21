@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button {   
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-weight: 600;
+    background-color: blue;
+    width: 100%;  
+     color: white;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+      form {   
+        border: 3px solid #f1f1f1;   
+    }   
+   
+    input[type=text], input[type=password] {   
+        font-family: "Arial", "Helvetica", "sans-serif";
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+    button:hover {   
+        font-family: "Arial", "Helvetica", "sans-serif";
+        opacity: 0.7;   
+    }   
+     
+    
+    .container {   
+        font-family: "Arial", "Helvetica", "sans-serif";
+        padding: 25px;   
+        background-color: rgb(255, 255, 255);  
+    }   
+#top {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-weight: 700;
+    bottom: 50px;
+    font-style: normal;
+}
+#t2 {
+    font-family: "Arial";
+    font-weight: 500;
+    text-orientation: upright;
+    position:relative;
+    bottom: 5px;
+    color: black;
+}
+.centerediv {
+    color: black;
+}
+h6 {
+    font-weight: 600;
+    font-family: "Arial";
+color: black;
+
+}

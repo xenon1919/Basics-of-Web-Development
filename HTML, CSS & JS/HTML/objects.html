@@ -1,0 +1,29 @@
+<html>
+    <title>Javascript</title>
+    <body>
+        <p id ="demo"></p>
+    </body>
+   <script>
+    var student = {
+        name : "Rishi",
+        age : 18,
+        branch : "CSE",
+    };
+    document.getElementById("demo").innerHTML=student.name + " of age" + student.age + " is from " + student.branch;
+
+    var employee = new Object();
+    employee.name ="John";
+    employee.age= 27;
+    employee.salary = 25000;
+    document.getElementById("demo").innerHTML= "Employee name : " + employee.name + " Age : " + employee.age + " Salary : " + employee.salary ; 
+
+    <!-- Method to create an object in Js using a Constructor -->
+    function stud(model,size,price) {
+        this.model = model;
+        this.size =size;
+        this.price = price;
+    }
+    var phone = new stud('Nokia','medium',19000);
+   console.log(phone.model)
+    </script>
+</html>
