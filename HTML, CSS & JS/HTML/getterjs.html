@@ -1,0 +1,18 @@
+<html>
+    <title>JavaScript</title>
+    <body>
+        <p id="demo"></p>
+    </body>
+    <script>
+        var car = {
+        model : "BMW 320d",
+        color : "Navy Blue",
+        fuel_type : "Diesel",
+        get fuel() {
+            return this.fuel_type;
+        }
+    }
+    document.getElementById("demo").innerHTML=car.fuel;
+
+    </script>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head>JavaScript</head>
+    <body>
+        <p id="demo"></p>
+    </body>
+    <script>
+        let cars = ["bmw","audi","honda"];
+        document.getElementById("demo").innerHTML=cars.toString();
+        let last = cars.pop();
+        document.getElementById("demo").innerHTML=last;
+        last1 = cars[cars.length-1];
+        console.log(last1)
+        cars.push("audi");
+        document.getElementById("demo").innerHTML=cars;
+        cars.shift();
+        document.getElementById("demo").innerHTML=cars;
+        cars.unshift("hyndai");
+        document.getElementById("demo").innerHTML=cars
+        console.log(cars)
+        let bikes =["yamaha","suzuki","royal enfield"];
+        let vehicles = cars.concat(bikes);
+        document.getElementById("demo").innerHTML=vehicles;
+        console.log(vehicles)
+        vehicles.sort();
+        document.getElementById("demo").innerHTML=vehicles;
+        console.log(vehicles)
+        vehicles.reverse();
+        document.getElementById("demo").innerHTML=vehicles;
+        console.log(vehicles)
+        
+    </script>
+</html>
