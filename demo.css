@@ -1,0 +1,15 @@
+.sample{
+    height:300px;
+    width:500px;
+    padding:15px;
+}
+.leftdiv{
+    height: 400px;
+    width:30%;
+    float:left;
+}
+b.rightdiv{
+    height: 400px;
+    width: 30%;
+    float:right;
+}
